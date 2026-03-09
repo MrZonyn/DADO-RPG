@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="JOGA-DADO-RPG - Jogue dados para o seu RPG!"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="/dist/script.js"></script>
+
+    <title>DADO-RPG</title>
+  </head>
+  <body>
+    <header>
+      <h1>DADO-RPG</h1>
+    </header>
+
+    <main>
+      <section id="introduction-section">
+        <div class="welcome">
+          <p>
+            Bem-vindo ao <strong>DADO-RPG</strong>! <br />
+            Aqui você pode jogar dados para o seu RPG.
+          </p>
+        </div>
+      </section>
+
+      <section id="choice-section">
+        <div class="die-button-container">
+          <button class="die-button" onclick="rollDie(4)">
+            <div class="asset-d4"></div>
+            <div class="die-type">
+              <span>d4</span>
+            </div>
+          </button>
+          <button class="die-button" onclick="rollDie(6)">
+            <div class="asset-d6"></div>
+            <div class="die-type">
+              <span>d6</span>
+            </div>
+          </button>
+          <button class="die-button" onclick="rollDie(8)">
+            <div class="asset-d8"></div>
+            <div class="die-type">
+              <span>d8</span>
+            </div>
+          </button>
+          <button class="die-button" onclick="rollDie(10)">
+            <div class="asset-d10"></div>
+            <div class="die-type">
+              <span>d10</span>
+            </div>
+          </button>
+          <button class="die-button" onclick="rollDie(12)">
+            <div class="asset-d12"></div>
+            <div class="die-type">
+              <span>d12</span>
+            </div>
+          </button>
+          <button class="die-button" onclick="rollDie(20)">
+            <div class="asset-d20"></div>
+            <div class="die-type">
+              <span>d20</span>
+            </div>
+          </button>
+          <button class="plus-button">
+            <input
+              class="plus"
+              type="number"
+              min="-99"
+              max="99"
+              placeholder="0"
+              maxlength="2"
+            />
+            <div class="asset-plus"></div>
+          </button>
+        </div>
+        <div class="roll-history">
+          <div class="dice-result"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 DADO-RPG. Desenvolvido por MrZonyn.</p>
+    </footer>
+  </body>
+</html>
