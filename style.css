@@ -52,6 +52,7 @@ main #introduction-section .welcome {
   font-size: 2rem;
   text-align: center;
   padding: 1rem;
+  color: white;
 }
 
 /* Die-Section */
@@ -61,9 +62,9 @@ main #choice-section {
   align-items: center;
   justify-content: center;
 
-  background-color: #0f0a03;
+  background-color: #32164f4a;
   border-radius: 5rem;
-  max-width: 80%;
+  max-width: 50%;
   margin-bottom: 2rem;
 }
 
@@ -79,8 +80,8 @@ main #choice-section .die-button-container {
 
 main #choice-section .die-button-container .die-button,
 .plus-button {
-  background-color: #622abca5;
-  color: rgb(0, 0, 0);
+  background-color: #814fd2a5;
+  color: white;
   font-size: 2rem;
   font-weight: 500;
   border-radius: 1rem;
@@ -290,20 +291,20 @@ main #choice-section .roll-history {
 
 .entry-die-name {
   font-family: "Balthazar", serif;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   color: #bb88ff;
   letter-spacing: 0.05em;
   min-width: 28px;
 }
 
 .entry-detail {
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, 0.55);
   font-style: italic;
 }
 
 .roll-badge {
-  font-size: 0.65rem;
+  font-size: 1rem;
   font-family: "Balthazar", serif;
   padding: 0.1rem 0.4rem;
   border-radius: 3px;
